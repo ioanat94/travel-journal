@@ -1,8 +1,8 @@
 {
   "name": "travel-journal",
   "version": "0.1.0",
-  "private": true,
-  "homepage":"http://ioanat94.github.io/travel-journal",
+  "private": false,
+  "homepage":"https://ioanat94.github.io/travel-journal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
