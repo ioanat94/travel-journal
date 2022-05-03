@@ -1,2 +1,2 @@
-# travel-journal
+# Travel Journal
 Travel journal in React.
