@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {destinations}
+      <div className='destination--container'>
+        {destinations}
+      </div>
     </div>
   );
 }

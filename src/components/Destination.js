@@ -2,16 +2,24 @@ import locationIcon from '../images/location-icon.png';
 
 function Destination(props) {
     return (
-        <div>
-            <img src={require(`../images/${props.destination.imageUrl}`)} alt={props.destination.imageUrl} className='destination--image' />
-            <div>
-                <img src={locationIcon} alt='Location Icon' />
-                <p className='location'>{props.destination.location}</p>
-                <a href={props.destination.googleMapsUrl} target='_blank' rel="noreferrer" className='google-maps'>View on Google Maps</a>
-                <p className='date'>{`${props.destination.startDate} - ${props.destination.endDate}`}</p>
-                <p className='description'>{props.destination.description}</p>
+        <>
+            <div className='destination'>
+                <img src={require(`../images/${props.destination.imageUrl}`)} alt={props.destination.imageUrl} className='destination--image' />
+                <div className='destination--side'>
+                    <div className='destination--info'>
+                        <div className='destination--location-container'>
+                            <img src={locationIcon} alt='Location Icon' className='destination--location-icon' />
+                            <p className='destination--location'>{props.destination.location}</p>
+                        </div>
+                        <a href={props.destination.googleMapsUrl} target='_blank' rel="noreferrer" className='destination--google-maps'>View on Google Maps</a>
+                    </div>
+                    <p className='destination--title'>{props.destination.title}</p>
+                    <p className='destination--date'>{`${props.destination.startDate} - ${props.destination.endDate}`}</p>
+                    <p className='destination--description'>{props.destination.description}</p>
+                </div>
             </div>
-        </div>
+            <hr></hr>
+        </>
     )
 }
 
