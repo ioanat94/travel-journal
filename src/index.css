@@ -25,3 +25,7 @@ body {
   color: white;
   font-size: 15px;
 }
+
+.destination--image {
+  width: 300px;
+}
