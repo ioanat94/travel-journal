@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  height: 60px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar--img {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar--title {
+  color: white;
+  font-size: 15px;
+}
