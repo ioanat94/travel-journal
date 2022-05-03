@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bcd1d48.css",
-    "main.js": "/static/js/main.86e1c2e2.js",
-    "static/media/geirangerfjord.png": "/static/media/geirangerfjord.5475d2a180c5e040a286.png",
-    "static/media/sydney-opera-house.png": "/static/media/sydney-opera-house.61a5fa185f5680bab6c9.png",
-    "static/media/mount-fuji.png": "/static/media/mount-fuji.a80d9488a189cdf2c5e0.png",
-    "static/media/location-icon.png": "/static/media/location-icon.abf0fdd58616d801b5c9.png",
-    "index.html": "/index.html",
-    "main.6bcd1d48.css.map": "/static/css/main.6bcd1d48.css.map",
-    "main.86e1c2e2.js.map": "/static/js/main.86e1c2e2.js.map"
+    "main.css": "/travel-journal/static/css/main.6bcd1d48.css",
+    "main.js": "/travel-journal/static/js/main.0668203f.js",
+    "static/media/geirangerfjord.png": "/travel-journal/static/media/geirangerfjord.5475d2a180c5e040a286.png",
+    "static/media/sydney-opera-house.png": "/travel-journal/static/media/sydney-opera-house.61a5fa185f5680bab6c9.png",
+    "static/media/mount-fuji.png": "/travel-journal/static/media/mount-fuji.a80d9488a189cdf2c5e0.png",
+    "static/media/location-icon.png": "/travel-journal/static/media/location-icon.abf0fdd58616d801b5c9.png",
+    "index.html": "/travel-journal/index.html",
+    "main.6bcd1d48.css.map": "/travel-journal/static/css/main.6bcd1d48.css.map",
+    "main.0668203f.js.map": "/travel-journal/static/js/main.0668203f.js.map"
   },
   "entrypoints": [
     "static/css/main.6bcd1d48.css",
-    "static/js/main.86e1c2e2.js"
+    "static/js/main.0668203f.js"
   ]
 }
